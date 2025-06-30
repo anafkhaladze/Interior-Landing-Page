@@ -303,3 +303,73 @@
 .actions img {
   width: 24px;
 }
+
+/* footer */
+footer {
+  height: 200px;
+}
+
+footer h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #000000;
+  margin-right: 40px;
+}
+
+.guide {
+  /* display: flex;
+  justify-content: space-around; */
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.links {
+  margin-right: 800px;
+}
+
+.links h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.links ul li {
+  margin-top: 20px;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: #898989;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.help {
+  margin-right: 20px;
+}
+
+.help h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.help ul li {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #898989;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px;
+}

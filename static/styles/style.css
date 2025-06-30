@@ -1,0 +1,52 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.inner-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.nav-menu ul,
+.icons ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu a,
+.icons a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #000000;
+}
+
+.icons img {
+  width: 24px;
+  height: 24px;
+}

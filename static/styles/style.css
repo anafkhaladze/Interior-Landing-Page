@@ -166,3 +166,140 @@
   margin-top: 30px;
   color: #333333;
 }
+
+/* our products */
+#grid h2 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin: 30px;
+}
+
+.card {
+  background: #f4f5f7;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #e97171;
+  color: #ffff;
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 4px 8px;
+}
+
+.badge.green {
+  background: #2ec1ac;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 8px 0 4px;
+}
+
+.desc {
+  color: gray;
+  font-size: 14px;
+}
+
+.price {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.old-price {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.show-more {
+  border: 1px solid goldenrod;
+  color: goldenrod;
+  background: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.show-more:hover {
+  background-color: #fff7e0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.overlay button {
+  background: #ffff;
+  color: #b88e2f;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.actions span {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.actions img {
+  width: 24px;
+}
